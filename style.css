@@ -808,10 +808,10 @@ footer > p {
 
 /* ================= RESPONSIVE ================= */
 
-@media (max-width: 950px) {
-
-    .navbar nav {
-        gap: 15px;
+@media (max-width: 768px) {
+      .product-grid {  
+    grid-template-columns: repeat(2, 1fr) !important ;
+        gap: 12px;
     }
 
     .hero {
